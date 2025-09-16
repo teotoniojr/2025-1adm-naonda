@@ -15,4 +15,37 @@
 body{
     background-color: var(--ciano);
     font-family: var(--texto);
+    margin: 0;
+}
+
+header{
+    background-color: var(--azul-forte);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.img-logo{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--verde);
+}
+
+.menu a:hover{
+    color: var(--preto);
+    transition: 0.5s; 
 }
